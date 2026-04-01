@@ -153,7 +153,7 @@ jobs:
 
       - name: Install regctl
         if: always()
-        uses: regclient/actions/regctl-installer@f61d18f46c86af724a9c804cb9ff2a6fec741c7c # main
+        uses: regclient/actions/regctl-installer@f07124ffba4b0cbf96b2a666d481ed9d44b5e7e4 # main
 
       - name: Cleanup intermediate architecture tags
         if: always()
